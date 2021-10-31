@@ -66,7 +66,7 @@ const AddCar = () => {
                     name="year"
                     rules={[{ required: true, message: "Please input year!" }]}
                 >
-                    <Input placeholder="year" />
+                    <InputNumber placeholder="year"/>
                 </Form.Item>
 
                 <Form.Item
